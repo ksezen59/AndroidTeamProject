@@ -79,7 +79,7 @@ public class activity_guess extends AppCompatActivity {
                 answerWord = answerText.getText().toString();
                 if (questionWord != null && answerWord != null) {
 
-                    String myApiURL = "https://translation.googleapis.com/language/translate/v2?q=" + questionText.getText().toString() + "&target=tr&cid=en&key=AIzaSyBIICm6wG8uyG1AcYM5wXR8LIjlFa9eeD4";
+                    String myApiURL = "https://translation.googleapis.com/language/translate/v2?q=" + questionText.getText().toString() + "&target=tr&cid=en&key=enterTheKeyHere";
 
                     final HttpTask newTask = new HttpTask(new ResponseHandler() {
                         @Override
