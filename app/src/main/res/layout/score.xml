@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:id="@+id/Lin0"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/l"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Congratulations"
+            android:textAlignment="center"
+            style="@style/Label"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Lin1"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_below = "@id/Lin0"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:id="@+id/l_usr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            style="@style/Label"
+            android:visibility="invisible"/>
+        <TextView
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:id="@+id/l_usn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textAlignment="center"
+            style="@style/Label"
+            android:visibility="invisible"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:text="Score"
+            style="@style/Label"
+            android:id="@+id/l_ussc"
+            android:visibility="invisible"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Lin2"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_below = "@id/Lin1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:id="@+id/l_sc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textAlignment="center"
+            style="@style/Label"/>
+        <TextView
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:id="@+id/l_sc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textAlignment="center"
+            style="@style/Label"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:text="Score"
+            style="@style/Label"
+            android:id="@+id/l_sc4"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Lin3"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_below = "@id/Lin2"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:id="@+id/l_sc5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textAlignment="center"
+            style="@style/Label"/>
+        <TextView
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:id="@+id/l_sc6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textAlignment="center"
+            style="@style/Label"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:text="Score"
+            style="@style/Label"
+            android:id="@+id/l_sc7"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Lin4"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_below = "@id/Lin3"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:id="@+id/l_sc8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textAlignment="center"
+            style="@style/Label"/>
+        <TextView
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:id="@+id/l_sc9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textAlignment="center"
+            style="@style/Label"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:text="Score"
+            style="@style/Label"
+            android:id="@+id/l_sc10"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Lin5"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_below = "@id/Lin4"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:id="@+id/l_sc11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textAlignment="center"
+            style="@style/Label"/>
+        <TextView
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:id="@+id/l_sc12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textAlignment="center"
+            style="@style/Label"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:text="Score"
+            style="@style/Label"
+            android:id="@+id/l_sc13"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Lin6"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_below = "@id/Lin5"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:id="@+id/l_sc14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textAlignment="center"
+            style="@style/Label"/>
+        <TextView
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:id="@+id/l_sc15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textAlignment="center"
+            style="@style/Label"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight='1'
+            android:layout_gravity="center"
+            android:text="Score"
+            style="@style/Label"
+            android:id="@+id/l_sc16"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Lin7"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_below = "@id/Lin6"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Button"
+            android:onClick="back"
+            android:textAlignment="center"
+            android:text="Guess Again"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
